@@ -1,0 +1,113 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #dbd1c1;
+    font-size: 62.5%;
+    font-family:monospace
+}
+
+header,
+main,
+footer {
+	background-color: #ccc6a6;
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.5em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+section{
+    padding:0.625em
+}
+h1 {
+    font-size: 5.0em;
+    color: rgb(179, 46, 46);
+}
+
+#aboutMe{
+    font-size: 3.0em;
+    text-align: center;
+}
+section {
+	margin: 1.875em 0 1.875em;
+}
+
+
+p {
+    padding: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ca802c;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+ 
+
+	body {
+		font-size: 75%;
+	}
+}
