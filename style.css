@@ -23,7 +23,8 @@ header h1 {
 }
 
 section{
-    padding:0.625em
+    padding:0.625em;
+    margin: 0 auto;
 }
 h1 {
     font-size: 5.0em;
